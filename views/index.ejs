@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Llista de la Compra - MongoDB</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🛒 Llista de la Compra</h1>
+        <p class="subtitle">Amb MongoDB Atlas</p>
+        
+        <!-- Missatges -->
+        <% if (missatge) { %>
+            <div class="missatge exit">
+                <%= missatge %>
+            </div>
+        <% } %>
+        
+        <% if (error) { %>
+            <div class="missatge error">
+                <%= error %>
+            </div>
+        <% } %>
+
+        <!-- Formulari per afegir producte -->
+        <div class="form-container">
+            <h2>➕ Afegir Producte</h2>
+            <form method="POST" action="/afegir" class="form-afegir">
+                <div class="form-group">
+                    <label for="nom">Nom del producte *</label>
+                    <input type="text" id="nom" name="nom" required 
+                           placeholder="ex: Pomes, Llet, Pa...">
+                </div>
+                
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="quantitat">Quantitat</label>
+                        <input type="number" id="quantitat" name="quantitat" 
+                               value="1" min="1" max="100">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="unitat">Unitat</label>
+                        <select id="unitat" name="unitat">
+                            <option value="unitats">Unitats</option>
+                            <option value="kg">Kg</option>
+                            <option value="g">Grams</option>
+                            <option value="l">Litres</option>
+                            <option value="ml">ml</option>
+                            <option value="paquet">Paquet</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="categoria">Categoria</label>
+                        <select id="categoria" name="categoria">
+                            <% categories.forEach(categoria => { %>
+                                <option value="<%= categoria %>">
+                                    <%= categoria %>
+                                </option>
+                            <% }); %>
+                        </select>
+                    </div>
+                </div>
+                
+                <button type="submit" class="btn-afegir">
+                    ✅ Afegir a la llista
+                </button>
+            </form>
+        </div>
+
+        <!-- Llista de productes -->
+        <div class="llista-container">
+            <h2>📋 La teva llista (<%= productes.length %> productes)</h2>
+            
+            <% if (productes.length === 0) { %>
+                <div class="llista-buida">
+                    <p>No tens productes a la llista.</p>
+                    <p>Afegeix el primer producte!</p>
+                </div>
+            <% } else { %>
+                <div class="estadistiques">
+                    <% 
+                    const categoriesCount = {};
+                    productes.forEach(p => {
+                        categoriesCount[p.categoria] = (categoriesCount[p.categoria] || 0) + 1;
+                    });
+                    %>
+                    <% Object.entries(categoriesCount).forEach(([cat, count]) => { %>
+                        <span class="categoria-tag"><%= cat %>: <%= count %></span>
+                    <% }); %>
+                </div>
+                
+                <ul class="llista">
+                    <% productes.forEach((producte, index) => { %>
+                        <li class="item-llista" data-categoria="<%= producte.categoria %>">
+                            <div class="info-producte">
+                                <strong class="nom-producte"><%= producte.nom %></strong>
+                                <span class="detalls-producte">
+                                    <%= producte.quantitat %> <%= producte.unitat %>
+                                </span>
+                                <span class="categoria-producte"><%= producte.categoria %></span>
+                            </div>
+                            <div class="accions">
+                                <small class="data">
+                                    <%= producte.dataCreacio.toLocaleDateString('ca-ES') %>
+                                </small>
+                                <!-- Aquí anirien els botons per marcar com comprat/eliminar -->
+                            </div>
+                        </li>
+                    <% }); %>
+                </ul>
+            <% } %>
+        </div>
+
+        <!-- Informació de la connexió -->
+        <div class="info-db">
+            <h3>🗃️ Informació de la Base de Dades</h3>
+            <p><strong>Estat:</strong> <span class="estat-connectat">✅ Connectat a MongoDB Atlas</span></p>
+            <p><strong>Productes emmagatzemats:</strong> <%= productes.length %></p>
+        </div>
+    </div>
+</body>
+</html>

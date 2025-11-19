@@ -1,0 +1,352 @@
+[
+  {
+    "nom": "Llet sentera",
+    "quantitat": 2,
+    "unitat": "l",
+    "categoria": "làctics",
+    "comprat": true
+  },
+  {
+    "nom": "Pa de motlle",
+    "quantitat": 1,
+    "unitat": "paquet",
+    "categoria": "altres",
+    "comprat": false
+  },
+  {
+    "nom": "Ous",
+    "quantitat": 12,
+    "unitat": "unitats",
+    "categoria": "altres",
+    "comprat": true
+  },
+  {
+    "nom": "Plàtans",
+    "quantitat": 6,
+    "unitat": "unitats",
+    "categoria": "fruites i verdures",
+    "comprat": false
+  },
+  {
+    "nom": "Iogurt natural",
+    "quantitat": 4,
+    "unitat": "unitats",
+    "categoria": "làctics",
+    "comprat": true
+  },
+  {
+    "nom": "Formatge emmental",
+    "quantitat": 1,
+    "unitat": "unitats",
+    "categoria": "làctics",
+    "comprat": false
+  },
+  {
+    "nom": "Arròs bomba",
+    "quantitat": 1,
+    "unitat": "kg",
+    "categoria": "altres",
+    "comprat": true
+  },
+  {
+    "nom": "Tomàquets",
+    "quantitat": 8,
+    "unitat": "unitats",
+    "categoria": "fruites i verdures",
+    "comprat": false
+  },
+  {
+    "nom": "Cogombres",
+    "quantitat": 2,
+    "unitat": "unitats",
+    "categoria": "fruites i verdures",
+    "comprat": true
+  },
+  {
+    "nom": "Enciam",
+    "quantitat": 1,
+    "unitat": "unitats",
+    "categoria": "fruites i verdures",
+    "comprat": false
+  },
+  {
+    "nom": "Filet de pollastre",
+    "quantitat": 4,
+    "unitat": "unitats",
+    "categoria": "carn i peix",
+    "comprat": true
+  },
+  {
+    "nom": "Lluç",
+    "quantitat": 2,
+    "unitat": "unitats",
+    "categoria": "carn i peix",
+    "comprat": false
+  },
+  {
+    "nom": "Hamburgueses de vedella",
+    "quantitat": 6,
+    "unitat": "unitats",
+    "categoria": "carn i peix",
+    "comprat": true
+  },
+  {
+    "nom": "Bacon",
+    "quantitat": 1,
+    "unitat": "paquet",
+    "categoria": "carn i peix",
+    "comprat": false
+  },
+  {
+    "nom": "Oli d'oliva verge extra",
+    "quantitat": 1,
+    "unitat": "l",
+    "categoria": "altres",
+    "comprat": true
+  },
+  {
+    "nom": "Vinagre de vi",
+    "quantitat": 1,
+    "unitat": "ml",
+    "categoria": "altres",
+    "comprat": false
+  },
+  {
+    "nom": "Sal marina",
+    "quantitat": 1,
+    "unitat": "kg",
+    "categoria": "altres",
+    "comprat": true
+  },
+  {
+    "nom": "Pebre negre",
+    "quantitat": 1,
+    "unitat": "g",
+    "categoria": "altres",
+    "comprat": false
+  },
+  {
+    "nom": "Suc de taronja",
+    "quantitat": 1,
+    "unitat": "l",
+    "categoria": "begudes",
+    "comprat": true
+  },
+  {
+    "nom": "Cafè molut",
+    "quantitat": 1,
+    "unitat": "kg",
+    "categoria": "altres",
+    "comprat": false
+  },
+  {
+    "nom": "Galetes Maria",
+    "quantitat": 2,
+    "unitat": "paquet",
+    "categoria": "altres",
+    "comprat": true
+  },
+  {
+    "nom": "Xocolata negra",
+    "quantitat": 1,
+    "unitat": "unitats",
+    "categoria": "altres",
+    "comprat": false
+  },
+  {
+    "nom": "Patates",
+    "quantitat": 3,
+    "unitat": "kg",
+    "categoria": "fruites i verdures",
+    "comprat": true
+  },
+  {
+    "nom": "Pastanagues",
+    "quantitat": 500,
+    "unitat": "g",
+    "categoria": "fruites i verdures",
+    "comprat": false
+  },
+  {
+    "nom": "Bròquil",
+    "quantitat": 1,
+    "unitat": "unitats",
+    "categoria": "fruites i verdures",
+    "comprat": true
+  },
+  {
+    "nom": "Coliflor",
+    "quantitat": 1,
+    "unitat": "unitats",
+    "categoria": "fruites i verdures",
+    "comprat": false
+  },
+  {
+    "nom": "Espinacs",
+    "quantitat": 200,
+    "unitat": "g",
+    "categoria": "fruites i verdures",
+    "comprat": true
+  },
+  {
+    "nom": "Pèsols congelats",
+    "quantitat": 1,
+    "unitat": "kg",
+    "categoria": "fruites i verdures",
+    "comprat": false
+  },
+  {
+    "nom": "Salsa de tomàquet",
+    "quantitat": 2,
+    "unitat": "unitats",
+    "categoria": "altres",
+    "comprat": true
+  },
+  {
+    "nom": "Mayonesa",
+    "quantitat": 1,
+    "unitat": "unitats",
+    "categoria": "altres",
+    "comprat": false
+  },
+  {
+    "nom": "Kètchup",
+    "quantitat": 1,
+    "unitat": "unitats",
+    "categoria": "altres",
+    "comprat": true
+  },
+  {
+    "nom": "Mostassa",
+    "quantitat": 1,
+    "unitat": "unitats",
+    "categoria": "altres",
+    "comprat": false
+  },
+  {
+    "nom": "Farina de blat",
+    "quantitat": 1,
+    "unitat": "kg",
+    "categoria": "altres",
+    "comprat": true
+  },
+  {
+    "nom": "Llevat fresc",
+    "quantitat": 1,
+    "unitat": "unitats",
+    "categoria": "altres",
+    "comprat": false
+  },
+  {
+    "nom": "Sucre blanc",
+    "quantitat": 1,
+    "unitat": "kg",
+    "categoria": "altres",
+    "comprat": true
+  },
+  {
+    "nom": "Mel",
+    "quantitat": 1,
+    "unitat": "unitats",
+    "categoria": "altres",
+    "comprat": false
+  },
+  {
+    "nom": "Mermelada de maduixa",
+    "quantitat": 1,
+    "unitat": "unitats",
+    "categoria": "altres",
+    "comprat": true
+  },
+  {
+    "nom": "Pizza congelada",
+    "quantitat": 2,
+    "unitat": "unitats",
+    "categoria": "altres",
+    "comprat": false
+  },
+  {
+    "nom": "Croissants",
+    "quantitat": 6,
+    "unitat": "unitats",
+    "categoria": "altres",
+    "comprat": true
+  },
+  {
+    "nom": "Aigua mineral",
+    "quantitat": 6,
+    "unitat": "unitats",
+    "categoria": "begudes",
+    "comprat": false
+  },
+  {
+    "nom": "Refresc de cola",
+    "quantitat": 2,
+    "unitat": "l",
+    "categoria": "begudes",
+    "comprat": true
+  },
+  {
+    "nom": "Vi negre",
+    "quantitat": 1,
+    "unitat": "l",
+    "categoria": "begudes",
+    "comprat": false
+  },
+  {
+    "nom": "Cervesa",
+    "quantitat": 6,
+    "unitat": "unitats",
+    "categoria": "begudes",
+    "comprat": true
+  },
+  {
+    "nom": "Paper higiènic",
+    "quantitat": 12,
+    "unitat": "unitats",
+    "categoria": "asseo",
+    "comprat": false
+  },
+  {
+    "nom": "Sabó de bany",
+    "quantitat": 2,
+    "unitat": "unitats",
+    "categoria": "asseo",
+    "comprat": true
+  },
+  {
+    "nom": "Dentífric",
+    "quantitat": 1,
+    "unitat": "unitats",
+    "categoria": "asseo",
+    "comprat": false
+  },
+  {
+    "nom": "Llavadora de plats",
+    "quantitat": 1,
+    "unitat": "unitats",
+    "categoria": "asseo",
+    "comprat": true
+  },
+  {
+    "nom": "Xampú",
+    "quantitat": 1,
+    "unitat": "unitats",
+    "categoria": "asseo",
+    "comprat": false
+  },
+  {
+    "nom": "Pomes Golden",
+    "quantitat": 8,
+    "unitat": "unitats",
+    "categoria": "fruites i verdures",
+    "comprat": true
+  },
+  {
+    "nom": "Iogurt grec",
+    "quantitat": 4,
+    "unitat": "unitats",
+    "categoria": "làctics",
+    "comprat": false
+  }
+]
